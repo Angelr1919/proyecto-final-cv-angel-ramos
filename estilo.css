@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Playfair Display', serif;
+
+}
+
+body
+{
+    background-color:ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0,0.1);
+
+}
+.contenedor .lado_izquierdo
+{
+    position: relative;
+    background: rgba(255, 255, 0, 0.432);;
+    padding:14.5%;
+
+}
+.contenedor .lado_derecho
+{
+    position: relative;
+    background: white;
+    padding:10%;
+
+}
+
+
+.idioma .porcentaje
+{
+position: relative;
+width: 100%;
+height: 6px;
+background: rgb(68, 64, 64);
+display: block;
+margin-top: 10px;
+}
+.idioma .porcentaje div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: gold;
+}
+.titulo
+{
+    padding-top: 50px;
+    border-bottom: 1px solid black;
+}
+
+
+.titulo2
+{
+    position:relative ;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+
